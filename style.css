@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("Nav.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.app{
+    width: auto;
+    padding-top: 20px;
+}
+#link{
+    padding-top: 10px;
+    color: rgb(252, 254, 255);
+    text-decoration: none;
+    font-family: myFirstFont, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#logo{
+    height: 50px;
+    padding-right: 10px;
+}
+.container{
+    color:white;
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 2.4rem;
+    font-weight: 150;
+}
+h1{
+    padding-bottom: 10px;
+}
+.btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+}
+.btn a{
+    color: rgb(245, 112, 130);
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+}
